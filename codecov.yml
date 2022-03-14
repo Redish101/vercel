@@ -1,0 +1,10 @@
+codecov:
+  require_ci_to_pass: yes
+
+coverage:
+  status:
+    project: off
+    patch: off
+
+fixes:
+  - "::packages/cli/"         # move root   e.g., "path/" => "after/path/"
